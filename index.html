@@ -1,0 +1,159 @@
+<div class="post-body post-content">
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBUuU-v4FBkE3R-RidnGBxqjierKZAiR-LvOIAjgCVL8ECJtEICC5fD_0NLZZokHx-fqRDl5eyqob1C_Q_HErNTvrnFo4TOW_I3-48YlTRaeupthmsAHXiZ1kdiTA2XlHNczxE9vHrbnB0VTj_DYSZpsO6lsiYkb8D1ISXIBrT-QbNHHgquqQX3Nz1ryk6/s500/robotf142-.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="RobotFX refunds" border="0" data-original-height="500" data-original-width="500" height="200" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBUuU-v4FBkE3R-RidnGBxqjierKZAiR-LvOIAjgCVL8ECJtEICC5fD_0NLZZokHx-fqRDl5eyqob1C_Q_HErNTvrnFo4TOW_I3-48YlTRaeupthmsAHXiZ1kdiTA2XlHNczxE9vHrbnB0VTj_DYSZpsO6lsiYkb8D1ISXIBrT-QbNHHgquqQX3Nz1ryk6/w200-h200-rw/robotf142-.jpg" title="RobotFX refunds" width="200"/></a></div><br/>Due to the fact that we are commercializing software goods, we usually do not offer full refunds, and definitely not for the Standard licensed products. RobotFX software products are to be sold/used as they are and this is the normal refund policy for general software products, which is meant to protect the seller. Besides this, the customers have the possibility to download and try any of our paid products before buying, for free.<p></p>
+<p>However, if the delivery of an Extended licensed product is delayed (we aim to deliver in maximum 3 days), the buyer has the right to ask for a full refund and this <u>will be granted</u>. Exceptions are those situations when the buyer specifically informs us that they don’t have a live trading account number yet, and so we won’t be able to customize his/her product.</p>
+<p>There are also very special circumstances when we may offer a certain discount or another product in exchange, usually it happens if the customer buys the wrong product.</p>
+<p>If a refund is to be granted, the customer will be notified about it first. The refund should arrive within maximum 7 days from our notification.</p>
+<script>
+//<![CDATA[
+document.addEventListener('DOMContentLoaded', function () {
+    // --- PART 1: Remove links to nonexistent anchors ---
+    const linkshDiv = document.querySelector('.linksh');
+    if (linkshDiv) {
+        const links = linkshDiv.querySelectorAll('a');
+        links.forEach(link => {
+            const href = link.getAttribute('href');
+            if (href && href.startsWith('#')) {
+                const targetId = href.substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (!targetElement) {
+                    link.style.display = 'none';
+                }
+            }
+        });
+    }
+
+    // --- PART 2: Lazy-load YouTube iframe ---
+    const container = document.querySelector('.youtube-lazy');
+    if (!container) return;
+
+    const videoId = container.getAttribute('data-video-id');
+    const si = container.getAttribute('data-si');
+
+    function createIframe(src = null) {
+        if (container.querySelector("iframe")) return;
+
+        const iframe = document.createElement("iframe");
+        iframe.setAttribute("width", "560");
+        iframe.setAttribute("height", "315");
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "");
+        iframe.setAttribute("loading", "lazy");
+        iframe.setAttribute("title", "YouTube video player");
+        iframe.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+        iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
+        iframe.setAttribute("name", "youtubeframe");
+        iframe.src = src || `https://www.youtube.com/embed/${videoId}?autoplay=1&si=${encodeURIComponent(si)}`;
+
+        container.innerHTML = "";
+        container.appendChild(iframe);
+    }
+
+    function scrollToIframeCenter() {
+        container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    // On thumbnail click
+    container.addEventListener("click", () => {
+        createIframe();
+        scrollToIframeCenter();
+    });
+
+    // On ▶️ link click
+    document.querySelectorAll('a[target="youtubeframe"]').forEach(link => {
+        link.addEventListener("click", (e) => {
+            const iframeExists = container.querySelector("iframe");
+            if (!iframeExists) {
+                e.preventDefault();
+                createIframe(link.href);
+                setTimeout(() => {
+                    window.open(link.href, "youtubeframe");
+                    scrollToIframeCenter();
+                }, 200);
+            } else {
+                scrollToIframeCenter();
+            }
+        });
+    });
+});
+//]]>
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Refunds Policy",
+  "url": "https://www.robotfx.org/p/refunds-policy.html",
+  "description": "Due to the fact that we are commercializing software goods, we usually do not offer full refunds, and definitely not for the Standard licensed products. RobotFX software products are to be sold/used &#8230;",
+  "operatingSystem": "MetaTrader 4, MetaTrader 5 (Windows, macOS, Linux with Wine/VM)",
+  "applicationCategory": "https://schema.org/FinanceApplication",
+  "applicationSuite": "MetaTrader",
+  
+    
+      "screenshot": {
+        "@type": "ImageObject",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBUuU-v4FBkE3R-RidnGBxqjierKZAiR-LvOIAjgCVL8ECJtEICC5fD_0NLZZokHx-fqRDl5eyqob1C_Q_HErNTvrnFo4TOW_I3-48YlTRaeupthmsAHXiZ1kdiTA2XlHNczxE9vHrbnB0VTj_DYSZpsO6lsiYkb8D1ISXIBrT-QbNHHgquqQX3Nz1ryk6/w1200-h630-p-k-no-nu/robotf142-.jpg"
+      },
+    
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "RobotFX Team",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://blogger.googleusercontent.com/img/a/AVvXsEjqDhYXLdZI2Hzi6vkQ2pnPz20A0rNyP3HTYoia8-RUD3170pCSfv77ACpX05KJt2iIgwDcm6N79AqUxzKoAFgIupT-XgEC9rzlwDH4hBMKDACgfLPjg2UaySbCEQUW9mZnMlHq_n0q4WC8juOoEAtodFyQcP_M0J9fxW3c3UUy6z7L9oYzcOgG-anlGA=s128-e365-rw"
+    }
+  },
+  "datePublished": "2025-07-20T09:24:00-07:00",
+  "dateModified": "2025-07-20T09:24:00-07:00",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "0",
+    "priceCurrency": "USD",
+    "url": "https://www.robotfx.org/p/refunds-policy.html"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "1"
+  },
+  "review": [
+    
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to use Refunds Policy",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Functions",
+      "text": "Explore the core functions of the Refunds Policy."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Charts",
+      "text": "Check the charts to see Refunds Policy examples and understand how it works."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Settings",
+      "text": "Adjust the Refunds Policy settings according to the instructions and your preferences."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Videos",
+      "text": "Watch tutorial videos for a better understanding of how Refunds Policy works."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Download",
+      "text": "Download the Refunds Policy and copy it in the MetaTrader folder."
+    }
+  ]
+}
+</script>
+</div>
